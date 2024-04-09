@@ -19,9 +19,9 @@ body {
 }
 
 .cabecalho .logo {
-    width: 65px;
+    width: 135px;
     height: 65px;
-    border-radius: 50%;
+    border-radius: 100%;
     border: 2px solid #fff;
     text-decoration: underline;
     text-align: center;
@@ -135,7 +135,7 @@ body {
     justify-content: center;
 }
 
-.projetos .projeto {
+.projetos .projeto { 
     max-width: 260px;
     max-height: 500px;
     position: relative;

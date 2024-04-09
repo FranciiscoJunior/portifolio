@@ -19,6 +19,8 @@ botaoMostrarProjetos.addEventListener('click', () => {
     //Passo 3 - adicionar a classe "ativo" nos projetos escondidos.
     projetosInativos.forEach(projetosInativos => {
         projetoInativo.classList.add('ativo');
+        botaoMostrarProjetos();
+        esconderBotao();
     });
 
     //- Objetivo 2 - esconder o botão de mostrar mais:
