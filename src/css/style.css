@@ -7,7 +7,7 @@ body {
     font-family: "poppins", sans-serif;
     margin: 0 auto;
     max-width: 1120px;
-    background: linear-gradient(150deg, #5c4b4b, #5a3770);
+    background: linear-gradient(150deg, #e06060, #a736ee);
     background-size: 120% 120%;
 }
 
@@ -19,10 +19,10 @@ body {
 }
 
 .cabecalho .logo {
-    width: 135px;
+    /*width: 65px;
     height: 65px;
     border-radius: 100%;
-    border: 2px solid #fff;
+    border: 2px solid #fff;*/
     text-decoration: underline;
     text-align: center;
     line-height: 55px;
@@ -31,19 +31,20 @@ body {
 }
 
 .cabecalho a:hover .logo {
-    color: #38333b;
-    border: 2px solid #332e36;
+    color: #32044d;
+    /*border: 2px solid #332e12;*/
 }
 
-.cabecalho .menu li a {
+.cabecalho .menu a {
     font-size: 20px;
     text-transform: capitalize;
+    text-decoration: underline;
     padding: 10px 20px;
     transition: 0.2s;
 }
 
-.cabecalho .menu li a:hover {
-    background-color: #3b363d;
+.cabecalho .menu a:hover {
+    background-color: #310442;
     color: #fff;
     border-radius: 50px;
 }
@@ -172,7 +173,7 @@ body {
     display: flex;
     gap: 5px;
     flex-wrap: wrap;
-    margin-bottom: 10px;
+    margin-bottom: 30px;
 }
 
 .tecnologia img {
@@ -240,6 +241,67 @@ body {
 
 .projetos .btn-mostrar-projetos.remover {
     display: none;
+}
+
+footer {
+    background-color: rgba(104, 75, 75, 0.25);
+    display: flex;
+    gap: 80px;
+    padding: 84px 80px;
+}
+
+footer img,
+footer .titulo2{
+    display: block;
+    font-weight: 600;
+    margin-bottom: 34px;
+}
+
+footer nav a {
+    color: #fff;
+    display: flex;
+    margin-bottom: 16px;
+    text-decoration: none;
+}
+
+footer p {
+    margin-bottom: 16px;
+    max-width: 350px;
+}
+
+footer div a h1 .logo2 {
+    /*width: 65px;
+    height: 65px;
+    border-radius: 100%;
+    border: 2px solid #fff;*/
+    text-decoration: underline;
+    text-align: center;
+    line-height: 55px;
+    font-family: "raleway", sans-serif;
+    transition: 0.2s;
+
+}
+
+footer div a:hover .logo2{
+    color: #38333b;
+    /*border: 2px solid #332e36;*/
+}
+
+footer p a {
+    text-decoration: none;
+    color: blue;
+}
+
+.contato {
+    color: blue;
+}
+
+.Copyright{
+    max-width: 1320px;
+    background-color: #263138;
+    color: #FFFFFF;
+    padding: 20px;
+    text-align: center;
 }
 
 @keyframes gradient-animation {
